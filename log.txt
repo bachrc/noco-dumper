@@ -1,0 +1,40 @@
+https://api.noco.tv/1.1/OAuth2/authorize.php?response_type=token&state=xyz&redirect_uri=https%3A%2F%2Fapi.noco.tv%2Fo2c.html&realm=5ae5f7fbe420f7f104084a3bfc3b6271&client_id=DocumentationAPI&scope=noco_account
+login: 1
+password: petitpandawoka76
+username: Auchan
+
+POST https://api.noco.tv/1.1/OAuth2/authorize.php?response_type=token&state=xyz&redirect_uri=https%3A%2F%2Fapi.noco.tv%2Fo2c.html&realm=5ae5f7fbe420f7f104084a3bfc3b6271&client_id=DocumentationAPI&scope=noco_account
+Origin: https://api.noco.tv
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: https://api.noco.tv/1.1/OAuth2/authorize.php?response_type=token&state=xyz&redirect_uri=https%3A%2F%2Fapi.noco.tv%2Fo2c.html&realm=5ae5f7fbe420f7f104084a3bfc3b6271&client_id=DocumentationAPI&scope=noco_account
+Accept-Encoding: gzip, deflate, br
+Accept-Language: fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4
+
+HTTP/1.1 302 Found
+ Redirect to: https://api.noco.tv/o2c.html#access_token=02a06044ed43568c7f34f461bc23d72fa89f1615&expires_in=3600&token_type=Bearer&scope=noco_account&state=xyz
+Server: nginx
+Date: Tue, 06 Sep 2016 12:43:16 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://api.noco.tv/o2c.html#access_token=02a06044ed43568c7f34f461bc23d72fa89f1615&expires_in=3600&token_type=Bearer&scope=noco_account&state=xyz
+Connection: close
+
+GET https://api.noco.tv/o2c.html#access_token=02a06044ed43568c7f34f461bc23d72fa89f1615&expires_in=3600&token_type=Bearer&scope=noco_account&state=xyz
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: https://api.noco.tv/1.1/OAuth2/authorize.php?response_type=token&state=xyz&redirect_uri=https%3A%2F%2Fapi.noco.tv%2Fo2c.html&realm=5ae5f7fbe420f7f104084a3bfc3b6271&client_id=DocumentationAPI&scope=noco_account
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 06 Sep 2016 12:43:17 GMT
+Last-Modified: Sat, 10 May 2014 19:57:18 GMT
+Content-Type: text/html
+Content-Length: 361
+Accept-Ranges: bytes
